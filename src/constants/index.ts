@@ -189,6 +189,14 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#D6AE4D'
+  },
+  LEDGER: {
+    connector: injected,
+    name: 'Ledger Wallet',
+    iconName: 'ledgerLogo.png',
+    description: 'Hardware Wallet.',
+    href: null,
+    color: '#D6AE4D'
   }
 }
 
