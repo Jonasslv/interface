@@ -173,6 +173,22 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#E8831D'
+  },
+  WALLETCONNECT: {
+    connector: injected,
+    name: 'WalletConnect',
+    iconName: 'walletConnectIcon.svg',
+    description: 'Easy-to-use browser extension.',
+    href: null,
+    color: '#4297FE'
+  },
+  COIN98: {
+    connector: injected,
+    name: 'Coin98',
+    iconName: 'coin98logo.png',
+    description: 'Easy-to-use browser extension.',
+    href: null,
+    color: '#D6AE4D'
   }
 }
 
